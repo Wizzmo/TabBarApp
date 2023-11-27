@@ -10,6 +10,7 @@
 		9808767C2B154CE8001403E0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9808767B2B154CE8001403E0 /* FirstViewController.swift */; };
 		9808767E2B154D1B001403E0 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9808767D2B154D1B001403E0 /* SecondViewController.swift */; };
 		980876802B154D4C001403E0 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9808767F2B154D4C001403E0 /* ThirdViewController.swift */; };
+		980876862B1556D3001403E0 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980876852B1556D3001403E0 /* TabBarViewController.swift */; };
 		9890A4BB2B153B08004E05C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9890A4BA2B153B08004E05C1 /* AppDelegate.swift */; };
 		9890A4BD2B153B08004E05C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9890A4BC2B153B08004E05C1 /* SceneDelegate.swift */; };
 		9890A4BF2B153B08004E05C1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9890A4BE2B153B08004E05C1 /* MainViewController.swift */; };
@@ -22,6 +23,7 @@
 		9808767B2B154CE8001403E0 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		9808767D2B154D1B001403E0 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		9808767F2B154D4C001403E0 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		980876852B1556D3001403E0 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		9890A4B72B153B08004E05C1 /* TabBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9890A4BA2B153B08004E05C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9890A4BC2B153B08004E05C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				9808767B2B154CE8001403E0 /* FirstViewController.swift */,
 				9808767D2B154D1B001403E0 /* SecondViewController.swift */,
 				9808767F2B154D4C001403E0 /* ThirdViewController.swift */,
+				980876852B1556D3001403E0 /* TabBarViewController.swift */,
 				9890A4C02B153B08004E05C1 /* Main.storyboard */,
 				9890A4C32B153B0A004E05C1 /* Assets.xcassets */,
 				9890A4C52B153B0A004E05C1 /* LaunchScreen.storyboard */,
@@ -151,6 +154,7 @@
 				9890A4BB2B153B08004E05C1 /* AppDelegate.swift in Sources */,
 				9890A4BD2B153B08004E05C1 /* SceneDelegate.swift in Sources */,
 				9808767E2B154D1B001403E0 /* SecondViewController.swift in Sources */,
+				980876862B1556D3001403E0 /* TabBarViewController.swift in Sources */,
 				980876802B154D4C001403E0 /* ThirdViewController.swift in Sources */,
 				9808767C2B154CE8001403E0 /* FirstViewController.swift in Sources */,
 			);
