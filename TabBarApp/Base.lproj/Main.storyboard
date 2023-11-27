@@ -64,12 +64,12 @@
             </objects>
             <point key="canvasLocation" x="881" y="755"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="6JP-xN-srm">
             <objects>
-                <viewController id="hYd-rN-Rmr" sceneMemberID="viewController">
+                <viewController id="hYd-rN-Rmr" customClass="ThirdViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="keP-cC-gxK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="35E-47-djo"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -124,19 +124,21 @@
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Zur-Tk-Hsg"/>
                         <segue destination="9pR-wj-iVJ" kind="relationship" relationship="viewControllers" id="zBj-Zc-nNe"/>
+                        <segue destination="MdD-RW-4Ej" kind="relationship" relationship="viewControllers" id="Wtp-K2-Afj"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MWO-dU-J5v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="112.8" y="-2.2488755622188905"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Third-->
         <scene sceneID="CIw-fY-eD6">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MdD-RW-4Ej" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Third" image="3.circle.fill" catalog="system" id="1WM-Ug-bcq"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="t5Z-w2-ILW">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -152,6 +154,7 @@
     <resources>
         <image name="1.circle.fill" catalog="system" width="128" height="123"/>
         <image name="2.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="3.circle.fill" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
