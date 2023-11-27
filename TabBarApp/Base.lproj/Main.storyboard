@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gob-Gv-Hjp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KM6-Z5-AWp">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
@@ -63,6 +63,34 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlc-qB-qSc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="881" y="755"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1uW-wS-AB4">
+            <objects>
+                <viewController id="KM6-Z5-AWp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GLO-Bt-7bf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TlV-Lg-gLg">
+                                <rect key="frame" x="82.5" y="306" width="210.5" height="55"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Go 2 Tab Bar">
+                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ida-Lf-xm0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TlV-Lg-gLg" firstAttribute="centerY" secondItem="GLO-Bt-7bf" secondAttribute="centerY" id="8EY-ff-qhn"/>
+                            <constraint firstItem="TlV-Lg-gLg" firstAttribute="centerX" secondItem="GLO-Bt-7bf" secondAttribute="centerX" id="oEF-ko-cd3"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oub-h9-1q1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-735" y="-2"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Iei-tE-sMI">
